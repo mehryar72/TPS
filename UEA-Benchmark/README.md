@@ -2,10 +2,11 @@ UEA Benchmark for "Global Temporal Attention block" and "Temporal Pseudo-Gaussia
 UEA archive should be extracted in "Multivariate_ts" folder, sktime ts format.
 
 
-####
+###########################
 Run ueatrain.py with the following the specified arguments for different models.
 
 ###########################
+
     FCN               :        mode=1,   ffh=16
     FCN + GTA         :        mode=301, ffh=16
     FCN + TPS         :        mode=400, adaD=3
@@ -26,49 +27,49 @@ Run ueatrain.py with the following the specified arguments for different models.
     
     E+TPS             :        mode=400, adad=1
     E+TPS             :        mode=400, adad=1, LrMo=3
----------for TPS-------
+    
+    TPS---------------
     No PE             : pos_enc=0
     Learnable PE      : pos_enc=2
     Fixed Function PE : pos_enc=1
-------
------ for non TPS
+    non TPS-----------
     pos_enc=0
--------------
+    -------------
 ############################
 
 set no between 0 t0 29 for specific dataset.
 
-ArticularyWordRecognition
-AtrialFibrillation
-BasicMotions
-CharacterTrajectories
-Cricket
-DuckDuckGeese
-EigenWorms
-Epilepsy
-ERing
-EthanolConcentration
-FaceDetection
-FingerMovements
-HandMovementDirection
-Handwriting
-Heartbeat
-InsectWingbeat
-JapaneseVowels
-Libras
-LSST
-MotorImagery
-NATOPS
-PEMS-SF
-PenDigits
-Phoneme
-RacketSports
-SelfRegulationSCP1
-SelfRegulationSCP2
-SpokenArabicDigits
-StandWalkJump
-UWaveGestureLibrary
+    ArticularyWordRecognition
+    AtrialFibrillation
+    BasicMotions
+    CharacterTrajectories
+    Cricket
+    DuckDuckGeese
+    EigenWorms
+    Epilepsy
+    ERing
+    EthanolConcentration
+    FaceDetection
+    FingerMovements
+    HandMovementDirection
+    Handwriting
+    Heartbeat
+    InsectWingbeat
+    JapaneseVowels
+    Libras
+    LSST
+    MotorImagery
+    NATOPS
+    PEMS-SF
+    PenDigits
+    Phoneme
+    RacketSports
+    SelfRegulationSCP1
+    SelfRegulationSCP2
+    SpokenArabicDigits
+    StandWalkJump
+    UWaveGestureLibrary
 
 ##############################
 
-set JobId to different numbers every run and average the results.
+set --JobId to different numbers every run and average the results.
