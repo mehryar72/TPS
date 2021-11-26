@@ -26,7 +26,7 @@ Run Load_TSC_train.py with the following the specified arguments to train differ
     
     
     E+TPS             :        mode=400, adad=1
-    E+TPS             :        mode=400, adad=1, LrMo=3
+    E+SA              :        mode=400, adad=1, LrMo=3
     
     TPS-------
     
