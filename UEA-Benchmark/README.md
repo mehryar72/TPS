@@ -26,7 +26,7 @@ Run ueatrain.py with the following the specified arguments for different models.
     
     
     E+TPS             :        mode=400, adad=1
-    E+TPS             :        mode=400, adad=1, LrMo=3
+    E+SA              :        mode=400, adad=1, LrMo=3
     
     TPS---------------
     No PE             : pos_enc=0
