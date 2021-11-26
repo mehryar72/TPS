@@ -27,26 +27,28 @@ Run Load_TSC_train.py with the following the specified arguments to train differ
     
     E+TPS             :        mode=400, adad=1
     E+TPS             :        mode=400, adad=1, LrMo=3
----------for TPS-------
+    
+    TPS-------
+    
     No PE             : pos_enc=0
     Learnable PE      : pos_enc=2
     Fixed Function PE : pos_enc=1
-------
------ for non TPS
+
+    Non TPS-----------
     pos_enc=0
--------------
+    -------------
 ############################
 
-set day5 to 1 for day 5 and 0 for day 3
+set --day5 to 1 for day 5 and 0 for day 3
 
 
 ##############################
-set Ra between 0-4 for different folds as test set.
-set JobId to different numbers every run and average the results.
+set --Ra between 0-4 for different folds as test set.
+set --JobId to different numbers every run and average the results.
 
 #############
 
 run load_2p_tsc.py to produce majority vote results.
 
 specify paths for "mod_path3" and "mod_path5" to the location of saved TSC models.
-Specify JobId3 and JobId5 for different itteration of saved models. And set Ra for different folds.
+Specify --JobId3 and --JobId5 for different iteration of saved models. And set Ra for different folds.
